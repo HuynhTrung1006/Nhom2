@@ -13,7 +13,12 @@ int main()
 	return 0;
 }
 
+
 float thuong(int a, int b)
 {
 	return a/b;
+}
+int tong(int a, int b)
+{
+	return(a+b);
 }
