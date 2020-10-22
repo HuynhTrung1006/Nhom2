@@ -12,3 +12,8 @@ int main()
 	system("pause");
 	return 0;
 }
+
+float thuong(int a, int b)
+{
+	return a/b;
+}
