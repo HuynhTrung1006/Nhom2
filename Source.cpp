@@ -12,3 +12,7 @@ int main()
 	system("pause");
 	return 0;
 }
+int tich(int a,int b)
+{
+	return a*b;
+}
