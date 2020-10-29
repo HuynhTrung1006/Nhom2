@@ -40,3 +40,9 @@ float dt_hinhvuong(int a)
 {
 	return a*a;
 }
+
+float tinhDienTichHinhTron (int r)
+{
+	float pi = 3.14;
+	return pi * r * r;
+}
