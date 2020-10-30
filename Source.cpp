@@ -9,6 +9,8 @@ float Chuvihinhvuong(int a);
 float tinhChuViHcn(int a,int b);
 float tinhChuViHinhVuong(int a);
 float tinhChuViHinhTron (int r);
+float dt_hinhvuong(int a);
+float dt_hcn(int a, int b);
 int main()
 {
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
@@ -39,6 +41,7 @@ float thuong(int a, int b)
 	return a/b;
 }
 
+
 float Chuvihinhvuong(int a){
 	return a*4;
 }
@@ -56,5 +59,22 @@ float tinhChuViHinhTron (int r)
 	float pi = 3.14;
 	float cvht = pi * 2 * r;
 	return cvht;
+
+
+float dt_hinhvuong(int a)
+{
+	return a*a;
+}
+
+float tinhDienTichHinhTron (int r)
+{
+	float pi = 3.14;
+	return pi * r * r;
+}
+
+float dt_hcn(int a, int b)
+{
+	
+	return a*b;
 
 }
