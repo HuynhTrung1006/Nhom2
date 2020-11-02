@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlid.h>
 
 using namespace std;
 int tong(int a, int b);
@@ -77,4 +78,17 @@ float dt_hcn(int a, int b)
 	
 	return a*b;
 
+}
+
+bool Phepcongrandom(){
+	int a = 0+rand()%(100+1-0);
+	int b = 0+rand()%(100+1-0);
+	int c;
+	cout << "a=" << a;
+	cout << "b=" << b;
+	cout << "ket qua :";
+	cin >> c;
+	if(c==a+b)
+		return true;
+	return false;
 }
