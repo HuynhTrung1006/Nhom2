@@ -92,3 +92,16 @@ bool Phepcongrandom(){
 		return true;
 	return false;
 }
+
+bool Pheptrurandom(){
+	int a = 0+rand()%(100+1-0);
+	int b = 0+rand()%(100+1-0);
+	int c;
+	cout << "a=" << a;
+	cout << "b=" << b;
+	cout << "ket qua :";
+	cin >> c;
+	if(c==a-b)
+		return true;
+	return false;
+}
